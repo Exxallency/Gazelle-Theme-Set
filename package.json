@@ -1,0 +1,34 @@
+{
+  "name": "gazellethemeset",
+  "displayName": "GazelleThemeSet",
+  "description": "Set of Visual Studio Code Themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "icon": "images/gzl.png",
+  "author": {
+    "name": "Exxallency"
+  },
+  "repository": {
+    "url": "https://github.com/Exxallency/Gazelle-Theme-Set.git",
+    "type": "git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gazelle Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gazelle.Dark.json"
+      },
+      {
+        "label": "Gazelle Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Gazelle.Light.json"
+      }
+    ]
+  }
+}
